@@ -1,0 +1,54 @@
+$text: #7a7773;
+nav {
+
+    a{
+color: rgb(29, 74, 197)
+    }
+}
+header {
+    max-height: 600px;
+    max-width: 1500px;
+}
+
+#mypic {
+    border: 5px solid black
+}
+.container {
+    
+    .col {
+        background-color: rgb(206, 197, 197);
+        border: 1px solid black;
+        
+    }
+    .col-6{
+        background-color: white;
+        border: 1px solid black;
+       
+    }
+
+}
+video {
+    display: block;
+    margin: 0 auto;
+}
+.mx-xl > p{
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+#interestimg {
+    width: 1500px;
+    height: 350px;
+
+}
+#titleInt {
+    margin-top: 100px;
+}
+@media print {
+    nav {
+        display: none;
+    }
+}
